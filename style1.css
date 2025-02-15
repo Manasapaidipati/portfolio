@@ -342,6 +342,37 @@ button:hover{
     align-items: center; /* Centers vertically */
     height: 100vh; /* Adjust based on your needs */
 }
+@media screen and (max-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+    .container {
+      width: 90%;
+    }
+  }
+  
+  /* Adjust for mobile phones */
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+    nav {
+      flex-direction: column; /* Makes the navigation vertical */
+    }
+  }
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
 
 
